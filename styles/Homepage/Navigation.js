@@ -21,7 +21,7 @@ export const Navigation__Row = styled.div`
     border-radius: 3px;
     background-color: #d28101;
     color: #00154f;
-    font-weight: bold;
+    font-weight: 500;
     font-size: 14px;
     cursor: pointer;
   }

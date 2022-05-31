@@ -44,7 +44,6 @@ export const HeroSection__Columns = styled.div`
     width: 100%;
     max-width: 100%;
     font-family: "Open Sans", sans-serif;
-    font-weight: 500;
     position: relative;
     z-index: 9;
   }
@@ -56,6 +55,7 @@ export const HeroSection__Columns = styled.div`
   .text p {
     margin: 1em 0;
     font-size: 20px;
+    font-weight: 500;
   }
 
   button {
@@ -65,7 +65,7 @@ export const HeroSection__Columns = styled.div`
     border-radius: 3px;
     background-color: #d28101;
     color: #00154f;
-    font-weight: bold;
+    font-weight: 500;
     font-size: 20px;
     cursor: pointer;
   }
@@ -87,6 +87,7 @@ export const HeroSection__Columns = styled.div`
     button {
       padding: 12px 24px;
       font-size: 14px;
+      font-weight: bold;
     }
   }
 
