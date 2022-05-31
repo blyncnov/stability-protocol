@@ -16,10 +16,10 @@ const HeroSection = () => {
             <div className="text">
               <h1>0% interest loans</h1>
               <p>
-                Borrow LUSD against ETH rem, ipsum dolor sit amet consectetur
-                adipisicing elit. Laudantium, minima. Eum, rem! Consectetur,
-                porro dolore. Animi, vitae! Maiores sunt quia nam. Ab, ipsa.
-                Porro, quaerat enim itaque sed dolorum facilis.
+                Borrow LUSD against ETH & Building a global financial platform for
+                lending/borrowing crypto assests and real world assets as NFTS
+                Consectetur, porro dolore. Animi, vitae! Maiores sunt quia nam.
+                Ab, ipsa. Porro, quaerat enim itaque sed dolorum facilis.
               </p>
               <button>Get Started</button>
             </div>

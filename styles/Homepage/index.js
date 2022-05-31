@@ -63,7 +63,7 @@ export const HeroSection__Columns = styled.div`
     padding: 12px 24px;
     border: none;
     border-radius: 3px;
-    background-color: #f4af1b;
+    background-color: #d28101;
     color: #00154f;
     font-weight: bold;
     font-size: 20px;

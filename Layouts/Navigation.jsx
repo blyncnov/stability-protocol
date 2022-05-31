@@ -18,7 +18,7 @@ const Navigation = () => {
           <Navigation__Row>
             <Navigation__Logo>
               {/* <Image src="/phaxsam.png" height="100" width="100" alt="logo" /> */}
-              <h3>Stability-Protocols</h3>
+              <h2>Stability-Protocols</h2>
             </Navigation__Logo>
             <Navigation__Lists>
               <li>
@@ -36,10 +36,13 @@ const Navigation = () => {
               <li>
                 <a href="#">Contact Us</a>
               </li>
+              <div className="mobile">
+                <button>Join Now</button>
+              </div>
             </Navigation__Lists>
-            <div className="mobile">
+            {/* <div className="mobile">
               <button>Join Now</button>
-            </div>
+            </div> */}
           </Navigation__Row>
         </MaxWidthComponent>
       </Navigation__Container>
