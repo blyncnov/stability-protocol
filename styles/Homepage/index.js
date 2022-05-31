@@ -50,12 +50,12 @@ export const HeroSection__Columns = styled.div`
   }
 
   .text h1 {
-    font-size: 32px;
+    font-size: 40px;
   }
 
   .text p {
     margin: 1em 0;
-    font-size: 15px;
+    font-size: 20px;
   }
 
   button {
@@ -66,7 +66,7 @@ export const HeroSection__Columns = styled.div`
     background-color: #f4af1b;
     color: #00154f;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 20px;
     cursor: pointer;
   }
 
@@ -76,6 +76,21 @@ export const HeroSection__Columns = styled.div`
   }
 
   @media (max-width: 768px) {
+    .text h1 {
+      font-size: 32px;
+    }
+
+    .text p {
+      font-size: 15px;
+    }
+
+    button {
+      padding: 12px 24px;
+      font-size: 14px;
+    }
+  }
+
+  @media (max-width: 900px) {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
   }
