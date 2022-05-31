@@ -25,6 +25,12 @@ export const Navigation__Row = styled.div`
     font-size: 14px;
     cursor: pointer;
   }
+
+  @media (max-width: 800px) {
+    button {
+      font-weight: bold;
+    }
+  }
 `;
 
 export const Navigation__Logo = styled.div`
