@@ -16,8 +16,7 @@ export const Navigation__Row = styled.div`
   align-items: center;
 
   button {
-    margin-top: 1em;
-    padding: 12px 24px;
+    padding: 10px 20px;
     border: none;
     border-radius: 3px;
     background-color: #f4af1b;
