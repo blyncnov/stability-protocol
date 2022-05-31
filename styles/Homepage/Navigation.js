@@ -12,10 +12,23 @@ export const Navigation__Row = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  button {
+    margin-top: 1em;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 3px;
+    background-color: #f4af1b;
+    color: #00154f;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+  }
 `;
 
-export const Navigation__Logo = styled.ul`
-  color: #f4af1b;
+export const Navigation__Logo = styled.div`
+  // color: #f4af1b;
+  color: #ffffff;
   display: flex;
   align-items: center;
 `;
