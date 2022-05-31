@@ -15,6 +15,20 @@ export const Header = styled.div`
   background-size: cover;
   background-repeat: no-repeat;
   background-position: botom right;
+  position: relative;
+  z-index: 5;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 3;
+    background-color: rgba(0, 0, 0, 0.5);
+    filter: blur(8px);
+    // filter: brightness(50%);
+  }
 `;
 
 export const HeroSection__Columns = styled.div`
