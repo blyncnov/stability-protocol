@@ -6,6 +6,8 @@ export const Navigation__Container = styled.div`
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  z-index: 9;
+  position: relative;
 `;
 
 export const Navigation__Row = styled.div`

@@ -27,7 +27,6 @@ export const Header = styled.div`
     z-index: 3;
     background-color: rgba(0, 0, 0, 0.5);
     filter: blur(8px);
-    // filter: brightness(50%);
   }
 `;
 
@@ -46,6 +45,8 @@ export const HeroSection__Columns = styled.div`
     max-width: 100%;
     font-family: "Open Sans", sans-serif;
     font-weight: 500;
+    position: relative;
+    z-index: 9;
   }
 
   .text h1 {
