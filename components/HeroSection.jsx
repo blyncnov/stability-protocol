@@ -17,7 +17,7 @@ const HeroSection = () => {
         <Navigation />
         <MaxWidthComponent>
           <HeroSection__Columns>
-            <HeroSection__CTO className="text">
+            <HeroSection__CTO>
               <h1>0% interest loans</h1>
               <p>
                 Borrow LUSD against ETH & Building a global financial platform
@@ -25,10 +25,10 @@ const HeroSection = () => {
                 NFTS Consectetur, porro dolore. Animi, vitae! Maiores sunt quia
                 nam. Ab, ipsa. Porro, quaerat enim itaque sed dolorum facilis.
               </p>
-              <button>Get Started</button>
+              <button className="HeroSection__Button">Get Started</button>
             </HeroSection__CTO>
 
-            <HeroSection__CTO className="text">
+            <HeroSection__CTO >
               <Image
                 src="/dvdfv14.png"
                 height="900"
