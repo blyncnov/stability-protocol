@@ -38,7 +38,7 @@ const Navigation = () => {
                   {NavigationItems.map((list) => {
                     return (
                       <li onClick={HandleIsClicked} key={list.id}>
-                        <Link href={list.url}>
+                        <Link href={`/${list.url}`}>
                           <a>{list.name}</a>
                         </Link>
                       </li>
