@@ -22,7 +22,7 @@ const Navigation = () => {
           <Navigation__Row>
             <Navigation__Logo>
               {/* <Image src="/phaxsam.png" height="100" width="100" alt="logo" /> */}
-              <h2>Stability-Protocols</h2>
+              <h2>StabPro</h2>
             </Navigation__Logo>
             <Navigation__Lists>
               {NavigationItems.map((list) => {
