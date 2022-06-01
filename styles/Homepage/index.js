@@ -24,7 +24,7 @@ export const Header = styled.div`
     top: 0;
     height: 100%;
     width: 100%;
-    z-index: 3;
+    z-index: 2;
     background-color: rgba(0, 0, 0, 0.5);
     filter: blur(8px);
   }
@@ -33,6 +33,7 @@ export const Header = styled.div`
 export const HeroSection__Columns = styled.div`
   display: grid;
   gap: 3em;
+
   grid-template-columns: 1fr 1fr;
   justify-content: center;
   align-items: center;
@@ -45,7 +46,7 @@ export const HeroSection__Columns = styled.div`
     max-width: 100%;
     font-family: "Open Sans", sans-serif;
     position: relative;
-    z-index: 9;
+    z-index: 3;
   }
 
   .text h1 {
