@@ -36,6 +36,17 @@ export const Vision__Box = styled.div`
   flex-direction: column;
   gap: 1em;
   line-height: 1.5;
+
+  @media (max-width: 768px) {
+
+    h2{
+        font-size: 16px;
+    }
+
+    p {
+      font-size: 13px;
+    }
+  }
 `;
 
 export default Vision__Container;
