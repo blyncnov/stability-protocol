@@ -48,7 +48,15 @@ const Navigation = () => {
                 <Navigation__Mobile>
                   <button className="Navigation__Button">Join Now</button>
                   <div className="Navigation__bar" onClick={HandleIsClicked}>
-                    <FaBars style={{ fontSize: "1.5em", cursor: "pointer" }} />
+                    {isClicked ? (
+                      <FaTimes
+                        style={{ fontSize: "1.5em", cursor: "pointer" }}
+                      />
+                    ) : (
+                      <FaBars
+                        style={{ fontSize: "1.5em", cursor: "pointer" }}
+                      />
+                    )}
                   </div>
                 </Navigation__Mobile>
               </Navigation__Left>
