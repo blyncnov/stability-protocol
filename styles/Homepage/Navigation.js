@@ -15,7 +15,7 @@ export const Navigation__Row = styled.div`
   justify-content: space-between;
   align-items: center;
 
-  button {
+  .Navigation__Button {
     padding: 10px 20px;
     border: none;
     border-radius: 3px;
@@ -24,10 +24,14 @@ export const Navigation__Row = styled.div`
     font-weight: 500;
     font-size: 14px;
     cursor: pointer;
+
+    &:hover {
+      background-color: #bb7302;
+    }
   }
 
   @media (max-width: 800px) {
-    button {
+    .Navigation__Button {
       font-weight: bold;
     }
   }
@@ -35,7 +39,6 @@ export const Navigation__Row = styled.div`
 
 export const Navigation__Logo = styled.div`
   color: #f4af1b;
-  // color: #ffffff;
   display: flex;
   align-items: center;
 `;
@@ -69,9 +72,23 @@ export const Navigation__Lists = styled.ul`
     li {
       display: none;
     }
+  }
+`;
 
-    .mobile {
-      display: block;
+export const Navigation__Mobile = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 1em;
+
+  .Navigation__bar {
+    display: none;
+  }
+
+  @media (max-width: 800px) {
+    display: flex;
+
+    .Navigation__bar {
+      display: flex;
     }
   }
 `;

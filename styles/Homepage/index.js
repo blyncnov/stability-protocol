@@ -68,6 +68,10 @@ export const HeroSection__Columns = styled.div`
     font-weight: 500;
     font-size: 20px;
     cursor: pointer;
+
+    &:hover {
+      background-color: #bb7302;
+    }
   }
 
   .text img {
