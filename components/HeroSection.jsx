@@ -28,7 +28,7 @@ const HeroSection = () => {
               <button className="HeroSection__Button">Get Started</button>
             </HeroSection__CTO>
 
-            <HeroSection__CTO >
+            <HeroSection__CTO>
               <Image
                 src="/dvdfv14.png"
                 height="900"
