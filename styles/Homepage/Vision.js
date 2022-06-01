@@ -38,7 +38,7 @@ export const Vision__Box = styled.div`
   line-height: 1.5;
 
   @media (max-width: 768px) {
-    text-align: center;
+    // text-align: center;
 
     h2 {
       font-size: 16px;
