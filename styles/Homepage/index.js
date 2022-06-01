@@ -51,12 +51,57 @@ export const HeroSection__Columns = styled.div`
 
   .text h1 {
     font-size: 40px;
+    animation: myH1Anim 1s ease 0s 1 normal forwards;
   }
 
   .text p {
     margin: 1em 0;
     font-size: 20px;
     font-weight: 500;
+  }
+
+  @keyframes myH1Anim {
+    0% {
+      animation-timing-function: ease-in;
+      opacity: 0;
+      transform: translateY(-250px);
+    }
+
+    38% {
+      animation-timing-function: ease-out;
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    55% {
+      animation-timing-function: ease-in;
+      transform: translateY(-65px);
+    }
+
+    72% {
+      animation-timing-function: ease-out;
+      transform: translateY(0);
+    }
+
+    81% {
+      animation-timing-function: ease-in;
+      transform: translateY(-28px);
+    }
+
+    90% {
+      animation-timing-function: ease-out;
+      transform: translateY(0);
+    }
+
+    95% {
+      animation-timing-function: ease-in;
+      transform: translateY(-8px);
+    }
+
+    100% {
+      animation-timing-function: ease-out;
+      transform: translateY(0);
+    }
   }
 
   button {
@@ -69,15 +114,40 @@ export const HeroSection__Columns = styled.div`
     font-weight: 500;
     font-size: 20px;
     cursor: pointer;
+    animation: myButtonAnim 1s ease 0s 1 normal forwards;
 
     &:hover {
       background-color: #bb7302;
+    }
+
+    @keyframes myButtonAnim {
+      0% {
+        opacity: 0;
+        transform: translateX(-250px);
+      }
+
+      100% {
+        opacity: 1;
+        transform: translateX(0);
+      }
     }
   }
 
   .text img {
     width: 100% !important;
     max-width: 100%;
+    animation: myAnim 1s ease 0s 1 normal forwards;
+  }
+  @keyframes myAnim {
+    0% {
+      opacity: 0;
+      transform: translateX(250px);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
   }
 
   @media (max-width: 768px) {
@@ -100,6 +170,14 @@ export const HeroSection__Columns = styled.div`
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
   }
+`;
+
+export const HeroSection__CTO = styled.div`
+  width: 100%;
+  max-width: 100%;
+  font-family: "Open Sans", sans-serif;
+  position: relative;
+  z-index: 3;
 `;
 
 export default Header;
