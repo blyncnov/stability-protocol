@@ -36,6 +36,27 @@ export const Vision__Box = styled.div`
   flex-direction: column;
   gap: 1em;
   line-height: 1.5;
+  transition: all 0.3s ease-in-out;
+
+  :hover {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 8px 16px -1px,
+      rgba(0, 0, 0, 0.06) 0px 4px 8px -1px;
+    transform: translateY(-2px);
+  }
+
+  h2 {
+    color: rgb(10, 15, 49);
+    opacity: 0.95;
+  }
+
+  h2::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #e6e6e6;
+    margin-top: 0.5em;
+  }
 
   @media (max-width: 768px) {
     // text-align: center;
