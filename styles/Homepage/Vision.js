@@ -8,12 +8,17 @@ export const Vision__Container = styled.div`
 export const Vision__Columns = styled.div`
   width: 100%;
   color: #333;
+  line-height: 1.5;
 
   .vision__header {
     padding: 1em 0;
 
     h1 {
       color: #333;
+    }
+
+    p {
+      opacity: 0.9;
     }
   }
 `;

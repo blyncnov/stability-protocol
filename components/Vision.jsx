@@ -16,6 +16,10 @@ const Vision = () => {
         <Vision__Columns>
           <div className="vision__header">
             <h1>Our Vision</h1>
+            <p>
+              The Stabiltiy Protocol efficient liquidation mechanism allows
+              users to get the best liquidity in all defi for their collaterals.{" "}
+            </p>
           </div>
           <Vision__Grid>
             <Vision__Box>
