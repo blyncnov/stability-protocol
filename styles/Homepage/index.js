@@ -48,8 +48,11 @@ export const HeroSection__Columns = styled.div`
     background-color: #d28101;
     color: #00154f;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 16px;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: .5em;
     animation: myButtonAnim 1s ease 0s 1 normal forwards;
 
     &:hover {
@@ -89,8 +92,9 @@ export const HeroSection__CTO = styled.div`
 
   p {
     margin: 1em 0;
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 500;
+    line-height: 25px !important;
   }
 
   @keyframes myH1Anim {
@@ -135,6 +139,18 @@ export const HeroSection__CTO = styled.div`
       animation-timing-function: ease-out;
       transform: translateY(0);
     }
+  }
+
+  .CTO__button {
+    display: flex;
+    gap: 1em;
+    font-size: 16px !important;
+  }
+
+  .CTO__button .waitlist {
+    background-color: transparent;
+    border: 1px solid #d28101;
+    color: #d28101;
   }
 
   @media (max-width: 768px) {

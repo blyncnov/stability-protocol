@@ -1,6 +1,9 @@
 import React from "react";
 import Image from "next/image";
 
+import { MdOutlineForwardToInbox } from "react-icons/md";
+import { ImRadioChecked } from "react-icons/im";
+
 import Navigation from "../Layouts/Navigation";
 
 import {
@@ -25,7 +28,16 @@ const HeroSection = () => {
                 NFTS Consectetur, porro dolore. Animi, vitae! Maiores sunt quia
                 nam. Ab, ipsa. Porro, quaerat enim itaque sed dolorum facilis.
               </p>
-              <button className="HeroSection__Button">Get Started</button>
+              <div className="CTO__button">
+                <button className="HeroSection__Button">
+                  <ImRadioChecked />
+                  Get Started
+                </button>
+                <button className="HeroSection__Button waitlist">
+                  <MdOutlineForwardToInbox style={{ color: "" }} />
+                  Join Waitlist
+                </button>
+              </div>
             </HeroSection__CTO>
 
             <HeroSection__CTO>
