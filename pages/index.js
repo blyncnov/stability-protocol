@@ -3,6 +3,8 @@ import Head from "next/head";
 import HeroSection from "../components/HeroSection";
 import Vision from "../components/Vision";
 import AboutProject from "../components/About";
+import Roadmap from "../components/Roadmap";
+import Partners from "../components/Partners";
 
 export default function Home() {
   return (
@@ -16,6 +18,8 @@ export default function Home() {
       <HeroSection />
       <Vision />
       <AboutProject />
+      <Roadmap />
+      <Partners />
     </>
   );
 }

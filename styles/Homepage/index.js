@@ -9,7 +9,7 @@ export const Header = styled.div`
       70deg,
       rgba(22, 16, 133, 1) 0%,
       rgba(20, 38, 85, 1) 35%,
-      rgba(19, 130, 153, 1) 100%
+      rgba(19, 130, 153, 1) 100% 
     ),
     url(/bg4.png);
   background-size: cover;
@@ -52,7 +52,7 @@ export const HeroSection__Columns = styled.div`
     cursor: pointer;
     display: flex;
     align-items: center;
-    gap: .5em;
+    gap: 0.5em;
     animation: myButtonAnim 1s ease 0s 1 normal forwards;
 
     &:hover {
