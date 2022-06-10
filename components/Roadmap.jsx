@@ -1,9 +1,11 @@
 import React from "react";
+
 import {
   VerticalTimeline,
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
+
 import { MaxWidthComponent } from "../styles/constants/helpers";
 import { FaBriefcase } from "react-icons/fa";
 
@@ -135,6 +137,7 @@ const Roadmap = () => {
             color: "#333",
             fontFamily: "'Hind Guntur', sans-serif",
           }}
+
           contentArrowStyle={{ borderRight: "7px solid  rgb(22, 16, 133)" }}
           date="2011 - present"
           iconStyle={{ background: "#923917", color: "#fff" }}

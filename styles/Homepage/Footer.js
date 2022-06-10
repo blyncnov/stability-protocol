@@ -17,7 +17,7 @@ export const Footer__Container = styled.div`
   background-size: cover;
   background-repeat: no-repeat;
   background-position: botom right;
-  margin: 2em 0 0 0;
+  margin: 0 0 0 0;
   text-align: center;
 
   &::after {

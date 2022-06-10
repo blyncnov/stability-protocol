@@ -14,11 +14,10 @@ export default function Home() {
         <meta name="description" content="DEFI - Stability Protocol" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
       <HeroSection />
       <Vision />
-      <AboutProject />
       <Roadmap />
+      <AboutProject />
       <Partners />
     </>
   );
