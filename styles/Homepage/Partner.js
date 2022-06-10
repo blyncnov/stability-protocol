@@ -10,7 +10,6 @@ export const Partner__Container = styled.div`
 
 export const Partner__Columns = styled.div`
   width: 100%;
- 
 
   .Partners__Header {
     line-height: 1.5;
@@ -25,6 +24,14 @@ export const Partner__Grid = styled.div`
   gap: 2em;
   justify-content: center;
   text-align: center;
+
+  .Partner__box h1 {
+    transition: all 0.3s ease-in-out;
+  }
+
+  .Partner__box h1:hover {
+    transform: scale(1.05);
+  }
 
   @media (max-width: 768px) {
     grid-template-columns: repeat(2, 1fr);
