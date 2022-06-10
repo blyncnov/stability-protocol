@@ -18,10 +18,12 @@ export const Partner__Columns = styled.div`
 
 export const Partner__Grid = styled.div`
   width: 100%;
-  padding: 2em 0;
+  padding: 1em 0;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 2em;
+  row-gap: 0;
+  column-gap: 100px;
+
   justify-content: center;
   text-align: center;
 
